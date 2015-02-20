@@ -28,6 +28,8 @@ EditText[] Edit;
 int[] idText, Pasajeros, Peso;
 int Configuracion;
 
+int Estonosirve;
+
 
 
     @Override
