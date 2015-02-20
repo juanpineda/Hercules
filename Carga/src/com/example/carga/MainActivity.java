@@ -17,7 +17,6 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 
-//Prueba
 
 public class MainActivity extends FragmentActivity  implements CambioPasajeros{
 	
@@ -28,6 +27,9 @@ Spinner ConfigMision;
 EditText[] Edit;
 int[] idText, Pasajeros, Peso;
 int Configuracion;
+int Algo=0;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
