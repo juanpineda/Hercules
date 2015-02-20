@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/palletcar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fondo" >
+
+    <TextView
+        android:id="@+id/textNumeroPallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NumeroPalet" />
+
+    <TextView
+        android:id="@+id/textEstacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textNumeroPallet"
+        android:layout_below="@+id/textNumeroPallet"
+        android:text="@string/Estacion" />
+
+    <TextView
+        android:id="@+id/textPesoPallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textEstacion"
+        android:layout_below="@+id/textEstacion"
+        android:text="@string/PesoPallet" />
+
+    <TextView
+        android:id="@+id/textValorNumeroPallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textEstacion"
+        android:layout_toRightOf="@+id/textNumeroPallet"
+        android:text="@string/Peso0" />
+
+    <TextView
+        android:id="@+id/textValorEstacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textNumeroPallet"
+        android:layout_toRightOf="@+id/textNumeroPallet"
+        android:text="@string/Peso0" />
+
+    <TextView
+        android:id="@+id/textValorPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textEstacion"
+        android:layout_toRightOf="@+id/textEstacion"
+        android:text="@string/Peso0" />
+	</RelativeLayout>
+</FrameLayout>
