@@ -27,7 +27,7 @@ Spinner ConfigMision;
 EditText[] Edit;
 int[] idText, Pasajeros, Peso;
 int Configuracion;
-int Algo=0;
+
 
 
     @Override
